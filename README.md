@@ -1,8 +1,9 @@
 # TrafficSignal
 
 ## Requirements
-PHP 7.1.10 (cli) 
-phpunit-6.5.14 ( already in repo with name phpunit.phar)
+** PHP 7.1.10 (cli) 
+
+** phpunit-6.5.14 ( already in repo with name phpunit.phar)
 
 ## Run the normal code and check output
 ```
