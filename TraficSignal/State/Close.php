@@ -1,0 +1,31 @@
+<?php
+/**
+ * Created by Visual Studio.
+ * @author Muhammad Ashfaq <ashfaqzp@gmail.com>
+ * Date: 14/07/2019 
+ */
+
+namespace TraficSignal\State;
+
+class Close extends \TraficSignal\TraficSignalState
+{
+    public function close()
+    {
+        return new Close();
+    }
+
+    public function open()
+    {
+        return new Open();
+    }
+
+    public function ready()
+    {
+        return new Ready();
+    }
+
+    public function stop()
+    {
+        return new Stop();
+    }
+}
