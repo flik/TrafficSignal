@@ -33,14 +33,14 @@ php index.php
 
 -------- to test Time 23:00 to 06:00 and combination code for condition A :
     [green_light] = 1
-    [yellow_light] = 1
+    [yellow_light] = 6
     [red_light] = 40
-    [output] => (Green and Yellow Lights are OFF) Red Light is ON
+    [output] => (Yellow Light Blinking and OFF for 2 seconds
 
 -------- to test Time 23:00 to 06:00 and combination code for condition B :
     [green_light] = 1
-    [yellow_light] = 1
+    [yellow_light] = 5
     [red_light] = 40
-    [output] => (Green and Yellow Lights are OFF) Red Light is ON
+    [output] => (Yellow Light Blinking and ON for 1 second
 
 ```
